@@ -19,7 +19,8 @@ Correlation matrix
 ![obraz](https://user-images.githubusercontent.com/10920417/161531112-9b0567c1-756c-4a71-862e-f800dd10b281.png)
 
 
-
+## Comparision of different single models  
+The best result gave simple basic LSTM  
 |dataset | metric |	ML model (lightGBM)	| basic LSTM	| Conv+MaxPool+LSTM+Dropout |	LSTM+LSTM   | 
 |:---: | :---: | :---: | :---: | :---: | :---: | 
 |validation	 | RMSE	 | 8.330	 | 7.709	 | 7.771	 | 8.211 | 
@@ -27,3 +28,11 @@ Correlation matrix
 |test	 | RMSE	 | 8.272	 | **6.694**	 | 7.261	 | 7.180 | 
 |test	 | R2	 | 28.5%	 | **53.1%**	 | 44.8%	 | 46.0% | 
 
+## Comparision of LSTM models combined with ML model (LightGBM)   
+The best result gave simple basic LSTM combined with ML model. Results where better than single LSTM  
+|dataset |	metric |	basic LSTM & LightGBM |	Conv+MaxPool+LSTM+Dropout  & LightGBM |	LSTM+LSTM  & LightGBM|
+|:---: | :---: | :---: | :---: | :---: |
+|validation |	RMSE |	7.135 |	7.185 |	7.346 |
+|validation |	R2 |	60.2% |	59.7% |	57.9% |
+|test |	RMSE |	**6.449** |	6.772 |	6.489 |
+|test |	R2 |	**56.4%** |	52.0% |	55.9% |
