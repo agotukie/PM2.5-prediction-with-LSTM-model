@@ -22,8 +22,8 @@ Correlation matrix
 
 |dataset | metric |	ML model (lightGBM)	| basic LSTM	| Conv+MaxPool+LSTM+Dropout |	LSTM+LSTM   | 
 |--- | --- | --- | --- | --- | --- | 
-|validation	 | RMSE	 | 8.330	 | 7.709	 | 7.771	 | 8.211 | 
-|validation	 | R2	 | 45.8%	 | 53.6%	 | 52.8%	 | 47.4% | 
-|test	 | RMSE	 | 8.272	 | 6.694	 | 7.261	 | 7.180 | 
-|test	 | R2	 | 28.5%	 | 53.1%	 | 44.8%	 | 46.0% | 
+|:validation:	 | :RMSE:	 | :8.330:	 | :7.709:	 | 7.771:	 | :8.211: | 
+|:validation:	 | :R2:	 | :45.8%:	 | :53.6%:	 | :52.8%:	 | :47.4%: | 
+|:test:	 | :RMSE:	 | :8.272:	 | :6.694:	 | :7.261:	 | :7.180: | 
+|:test:	 | :R2:	 | :28.5%:	 | :53.1%:	 | :44.8%:	 | :46.0%: | 
 
