@@ -18,6 +18,16 @@ Data in initial model:
 Correlation matrix  
 ![obraz](https://user-images.githubusercontent.com/10920417/161531112-9b0567c1-756c-4a71-862e-f800dd10b281.png)
 
+## Tested models
+
+Machine learning model:  
+* LightGBM
+
+Neural network models - layers:
+* LSTM
+* Conv+MaxPool+LSTM+Dropout
+* LSTM+LSTM (autoencoder)
+
 
 ## Comparision of different single models  
 The best result gave simple basic LSTM  
